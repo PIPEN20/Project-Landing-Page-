@@ -136,3 +136,12 @@ body {
 .blueboxbutton {
     width: 65px;
 }
+
+.img {
+    border-radius: 20px;
+    border: 7px solid aqua;
+}
+
+img {
+    border-radius: 15px;
+}
