@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     padding: 0px;
     margin: 0%;
+    font-family: Roboto;
 }
 
 .header,
@@ -28,13 +29,14 @@ body {
 }
 
 .header {
-    background-color: #1F2937;
+    background-color: #E5E7EB;
     justify-content: space-between;
     align-items: center;
+    padding: 16px;
 }
 
 .navybox {
-    background-color: #1F2937;
+    background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
 }
@@ -48,16 +50,22 @@ body {
     background-color: #E5E7EB;
 }
 
+#1F2937
+
 .footer {
     margin-top: auto;
-    background-color: #1F2937;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagebox {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: max-content;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    text-align: center;
 }
 
 .imgitem {
@@ -70,3 +78,6 @@ body {
 }
 
 
+.headertitle {
+    margin: 0%;
+}
