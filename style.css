@@ -26,8 +26,8 @@ body {
 .footer {
     display: flex;
     margin: 0px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header {
@@ -41,7 +41,7 @@ body {
     background-color: #E5E7EB;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding-bottom: 30px;
 }
 
 .whitebox {
@@ -110,12 +110,29 @@ body {
 .bluebox {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: #E5E7EB;
-    height: 100px;
-
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
 }
 
 .quotetitle {
     display: flex;
     justify-content: right;
+}
+
+.blueboxtitle {
+    margin: 0;
+}
+
+.blueboxp {
+    margin: 0;
+}
+
+.blueboxbutton {
+    width: 65px;
 }
