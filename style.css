@@ -26,13 +26,15 @@ body {
 .footer {
     display: flex;
     margin: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .header {
     background-color: #E5E7EB;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    min-height: 70px;
 }
 
 .navybox {
@@ -62,8 +64,8 @@ body {
 .imagebox {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-between;
+    gap: 50px;
     width: 100%;
     text-align: center;
 }
@@ -80,4 +82,9 @@ body {
 
 .headertitle {
     margin: 0%;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 20px;
 }
