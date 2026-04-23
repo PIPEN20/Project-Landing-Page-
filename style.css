@@ -51,6 +51,7 @@ body {
 
 .greybox{
     background-color: #E5E7EB;
+    flex-direction: column;
 }
 
 .bottombox {
@@ -112,4 +113,9 @@ body {
     background-color: #E5E7EB;
     height: 100px;
 
+}
+
+.quotetitle {
+    display: flex;
+    justify-content: right;
 }
