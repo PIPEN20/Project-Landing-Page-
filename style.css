@@ -26,8 +26,8 @@ body {
 .footer {
     display: flex;
     margin: 0px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header {
@@ -39,8 +39,9 @@ body {
 
 .navybox {
     background-color: #E5E7EB;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 50px;
 }
 
 .whitebox {
@@ -52,11 +53,17 @@ body {
     background-color: #E5E7EB;
 }
 
-#1F2937
+.bottombox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
 
 .footer {
     margin-top: auto;
-    background-color: #E5E7EB;
+    background-color: #1F2937;
     align-items: center;
     justify-content: center;
 }
@@ -87,4 +94,22 @@ body {
 .headerlinks {
     display: flex;
     gap: 20px;
+}
+
+.maintitle {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.maintitlebox {
+    width: 575px;
+}
+
+
+.bluebox {
+    display: flex;
+    flex-direction: row;
+    background-color: #E5E7EB;
+    height: 100px;
+
 }
